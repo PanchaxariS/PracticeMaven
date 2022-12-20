@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="13" passed="9" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-20T17:28:55 IST" name="Default suite" finished-at="2022-12-20T17:28:57 IST" duration-ms="2108">
+    <groups>
+      <group name="arjun">
+        <method signature="TestNG_Parameters.test10()[pri:0, instance:demoMaven.practice.TestNG_Parameters@47e2e487]" name="test10" class="demoMaven.practice.TestNG_Parameters"/>
+        <method signature="TestNG_Parameters.test9()[pri:0, instance:demoMaven.practice.TestNG_Parameters@47e2e487]" name="test9" class="demoMaven.practice.TestNG_Parameters"/>
+      </group> <!-- arjun -->
+    </groups>
+    <test started-at="2022-12-20T17:28:55 IST" name="Default test" finished-at="2022-12-20T17:28:57 IST" duration-ms="2108">
+      <class name="demoMaven.practice.TestNG_Parameters">
+        <test-method signature="test2()[pri:-200, instance:demoMaven.practice.TestNG_Parameters@47e2e487]" started-at="2022-12-20T17:28:55 IST" name="test2" finished-at="2022-12-20T17:28:55 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:-200, instance:demoMaven.practice.TestNG_Parameters@47e2e487]" started-at="2022-12-20T17:28:55 IST" name="test2" finished-at="2022-12-20T17:28:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test10()[pri:0, instance:demoMaven.practice.TestNG_Parameters@47e2e487]" started-at="2022-12-20T17:28:55 IST" name="test10" finished-at="2022-12-20T17:28:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+        <test-method signature="test3()[pri:0, instance:demoMaven.practice.TestNG_Parameters@47e2e487]" started-at="2022-12-20T17:28:55 IST" name="test3" finished-at="2022-12-20T17:28:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test3()[pri:0, instance:demoMaven.practice.TestNG_Parameters@47e2e487]" started-at="2022-12-20T17:28:55 IST" name="test3" finished-at="2022-12-20T17:28:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test3()[pri:0, instance:demoMaven.practice.TestNG_Parameters@47e2e487]" started-at="2022-12-20T17:28:55 IST" name="test3" finished-at="2022-12-20T17:28:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test5()[pri:0, instance:demoMaven.practice.TestNG_Parameters@47e2e487]" started-at="2022-12-20T17:28:55 IST" name="test5" finished-at="2022-12-20T17:28:55 IST" duration-ms="2" status="FAIL">
+          <exception class="junit.framework.AssertionFailedError">
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:47)
+at junit.framework.Assert.fail(Assert.java:53)
+at demoMaven.practice.TestNG_Parameters.test5(TestNG_Parameters.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="test6()[pri:0, instance:demoMaven.practice.TestNG_Parameters@47e2e487]" started-at="2022-12-20T17:28:55 IST" name="test6" finished-at="2022-12-20T17:28:55 IST" depends-on-methods="demoMaven.practice.TestNG_Parameters.test5" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestNG_Parameters.test6()[pri:0, instance:demoMaven.practice.TestNG_Parameters@47e2e487] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestNG_Parameters.test6()[pri:0, instance:demoMaven.practice.TestNG_Parameters@47e2e487] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="test7()[pri:0, instance:demoMaven.practice.TestNG_Parameters@47e2e487]" started-at="2022-12-20T17:28:55 IST" name="test7" description="TestNG is parametes are act like an Attribute.." finished-at="2022-12-20T17:28:57 IST" duration-ms="2019" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method demoMaven.practice.TestNG_Parameters.test7() didn't finish within the time-out 2000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method demoMaven.practice.TestNG_Parameters.test7() didn't finish within the time-out 2000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method signature="test8()[pri:0, instance:demoMaven.practice.TestNG_Parameters@47e2e487]" started-at="2022-12-20T17:28:57 IST" name="test8" finished-at="2022-12-20T17:28:57 IST" duration-ms="1" status="PASS">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at demoMaven.practice.TestNG_Parameters.test8(TestNG_Parameters.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+        <test-method signature="test9()[pri:0, instance:demoMaven.practice.TestNG_Parameters@47e2e487]" started-at="2022-12-20T17:28:57 IST" name="test9" finished-at="2022-12-20T17:28:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test9 -->
+        <test-method signature="test1()[pri:100, instance:demoMaven.practice.TestNG_Parameters@47e2e487]" started-at="2022-12-20T17:28:57 IST" name="test1" finished-at="2022-12-20T17:28:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- demoMaven.practice.TestNG_Parameters -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

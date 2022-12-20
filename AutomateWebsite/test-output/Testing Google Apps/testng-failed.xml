@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Google Apps]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="demoMaven.practice.ExcelData_DataProvider">
+        <methods>
+          <include name="login"/>
+          <include name="launchBrowser"/>
+          <include name="burnDown"/>
+        </methods>
+      </class> <!-- demoMaven.practice.ExcelData_DataProvider -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Testing Google Apps] -->

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="demoMaven.practice.TestNG_Parameters">
+        <methods>
+          <include name="test6"/>
+          <include name="test5"/>
+        </methods>
+      </class> <!-- demoMaven.practice.TestNG_Parameters -->
+      <class name="demoMaven.practice.Guru99TestClass">
+        <methods>
+          <include name="closeChrome"/>
+          <include name="manager_ID_Text"/>
+          <include name="login"/>
+          <include name="homePageText"/>
+          <include name="logout"/>
+          <include name="clickNewTours"/>
+          <include name="initializeChrome"/>
+        </methods>
+      </class> <!-- demoMaven.practice.Guru99TestClass -->
+      <class name="demoMaven.practice.DataProvider_Parrameter">
+        <methods>
+          <include name="myData" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- demoMaven.practice.DataProvider_Parrameter -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
